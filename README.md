@@ -7,7 +7,8 @@ ECommerce App
 ## Objectives
 Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 
-## Initial set up
+## Initial set up ✅
+
 * [x]Create React App
 * [x]Install all dependencies
     * Material ui and icons
@@ -24,54 +25,68 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
       *** Create a .env file in your project directory and include SKIP_PREFLIGHT_CHECK=true in the file.
 
 ## Mock products
-* []
-* []
-* []
+
+* [x] Components
+* [x] Products
+* [x] Styles
+
 ## Navbar
+
 * []
 * []
 * []
 ## Products
+
 * []
 * []
 * []
 ## shoping cart layout
+
 * []
 * []
 * []
 ## Router
+
 * []
 * []
 * []
 ## Shoping cart buttons
+
 * []
 * []
 * []
 ## Checkout
+
 * []
 * []
 * []
 ## Form - Adresses
+
 * []
 * []
 * []
 ## Fetching countries
+
 * []
 * []
 * []
 ## Fetching countries - sub devition
+
 * []
 * []
 * []
 ## Payment forms and stripe
+
 * []
 * []
 * []
 ## Integration
+
 * []
 * []
 * []
 ## Credits
+
 * []
 * []
 * []
