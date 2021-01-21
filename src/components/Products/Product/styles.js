@@ -1,8 +1,7 @@
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles.index";
 
 export default makeStyles(() => ({
-  root: {
-    // maxWidth: 345, original width style
+    root: {
     maxWidth: "100%",
   },
   media: {
@@ -17,4 +16,4 @@ export default makeStyles(() => ({
     display: "flex",
     justifyContent: "space-between",
   },
-}));
+}))
