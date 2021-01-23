@@ -6,8 +6,7 @@ import Product from './Product/Product'
 
 
 const products = [
-  { id:1, name:'tees', description:'ain.', price:'$55', image:'https://unsplash.com/photos/RTr1c-ZLe0c', },
-  // { id:1, name:'tees', description:'ain.', price:'$55', image:'/src/images/ain.jpeg', },
+  { id:1, name:'tees', description:'ain.', price:'$55', image:'/src/images/ain.jpeg', },
   { id:2, name:'tees', description:'ayo.', price:'$39', image: '/src/images/ayo.jpeg'},
   { id:3, name:'tees', description:'bant.', price:'$55', image: '/src/images/bant.jpg'},
   { id:4, name:'tees', description:'gal.', price:'$45', image: '/src/images/gal.jpeg'},
