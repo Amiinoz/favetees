@@ -5,11 +5,11 @@ export default makeStyles(() => ({
   root: {
     maxWidth: '100%',
   },
-  media: {
-    width:'56px',
-    height:0,
-    paddingTop: '43%',
-  },
+  // media: {
+  //   width:'56px',
+  //   height:0,
+  //   paddingTop: '43%',
+  // },
   cardActions: {
     display: 'flex',
     justifyContent: 'flex-end',
@@ -19,3 +19,5 @@ export default makeStyles(() => ({
     justifyContent: 'space-between'
   },
 }));
+
+
