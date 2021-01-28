@@ -32,9 +32,9 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 
 ## Navbar
 
-* []
-* []
-* []
+* [x] Nav
+* [x] Logo
+* [x] Header
 ## Products
 
 * []
