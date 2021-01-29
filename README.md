@@ -35,16 +35,20 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 * [x] Nav
 * [x] Logo
 * [x] Header
+
 ## Products
 
-* []
-* []
-* []
-## shoping cart layout
+* [x] create commerce.js file
+* [x] Fetching products - commerce.js
+     * Find Api key
+     * Create environment variables
 
-* []
-* []
-* []
+## shoping cart
+
+* [x] Get product
+* [x] Get cart
+* [x] Add products to the cart
+* [] Chackout cart layout
 ## Router
 
 * []
