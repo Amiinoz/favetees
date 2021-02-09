@@ -51,12 +51,12 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 * [] Chackout cart layout
 ## Router
 
-* []
-* []
-* []
+* [x] Home
+* [x] Check out
+
 ## Shoping cart buttons
 
-* []
+* [x] Button functionality
 * []
 * []
 ## Checkout
