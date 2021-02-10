@@ -49,6 +49,8 @@ const Cart = ({
             Empty Cart
           </Button>
           <Button
+            component={Link}
+            to="/checkout"
             className={classes.ceckoutButton}
             size="large"
             type="button"

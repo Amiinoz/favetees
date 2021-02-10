@@ -54,21 +54,22 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 * [x] Home
 * [x] Check out
 
-## Shoping cart buttons
+## Shopping cart buttons
 
-* [x] Button functionality
-* []
-* []
+* [x] Adding
+* [x] Removing
+* [x] empty the cart
 ## Checkout
 
-* []
-* []
-* []
+*  [x] Checkout Form
+*   [x] Steps
+    * [x] Shipping
+    * [x] Payment
+    * [x] Review order
+
 ## Form - Adresses
 
-* []
-* []
-* []
+* [x] Address form
 ## Fetching countries
 
 * []

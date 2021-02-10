@@ -18,6 +18,7 @@ import useStyles from './styles';
 const Navbar = ({ totalItems }) => {
   const classes = useStyles();
   const location = useLocation();
+
   return (
     <>
       <AppBar position="fixed" className={classes.AppBar} color="inherit">
@@ -57,5 +58,4 @@ const Navbar = ({ totalItems }) => {
     </>
   );
 };
-
 export default Navbar;
