@@ -30,7 +30,7 @@ const AddressForm = ({ checkoutToken }) => {
 
   const fetchShippingCountries = async (checkoutTokenId) => {
     // checkoutToken is created at checkout.jsx
-    const countries = await commerce.services.localeListShippingCountries(
+    const { countries } = await commerce.services.localeListShippingCountries(
       checkoutTokenId
     );
     // console.log(countries);
@@ -65,7 +65,6 @@ const AddressForm = ({ checkoutToken }) => {
               >
                 {countries.map((country) => (
                   <MenuItem key={country.id} value={country.id}>
-                    {/*{country.name}*/}
                     {country.label}
                   </MenuItem>
                 ))}
