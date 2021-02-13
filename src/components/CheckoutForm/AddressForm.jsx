@@ -103,7 +103,12 @@ const AddressForm = ({ checkoutToken, next }) => {
       <FormProvider {...methods}>
         <form
           onSubmit={methods.handleSubmit((data) =>
-            next(...data, shippingCountry, shippingSubdivision, shippingOption)
+            next({
+              ...data,
+              shippingCountry,
+              shippingSubdivision,
+              shippingOption,
+            })
           )}
         >
           <Grid container spacing={3}>
