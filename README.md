@@ -24,42 +24,42 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 * [x] Problems with babel loader
       *** Create a .env file in your project directory and include SKIP_PREFLIGHT_CHECK=true in the file.
 
-## Mock products
+## Mock products ✅
 
 * [x] Components
 * [x] Products
 * [x] Styles
 
-## Navbar
+## Navbar ✅
 
 * [x] Nav
 * [x] Logo
 * [x] Header
 
-## Products
+## Products ✅
 
 * [x] create commerce.js file
 * [x] Fetching products - commerce.js
      * Find Api key
      * Create environment variables
 
-## shoping cart
+## shoping cart ✅
 
 * [x] Get product
 * [x] Get cart
 * [x] Add products to the cart
 * [] Chackout cart layout
-## Router
+## Router ✅
 
 * [x] Home
 * [x] Check out
 
-## Shopping cart buttons
+## Shopping cart buttons ✅
 
 * [x] Adding
 * [x] Removing
 * [x] empty the cart
-## Checkout
+## Checkout ✅
 
 *  [x] Checkout Form
 *   [x] Steps
@@ -67,22 +67,19 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
     * [x] Payment
     * [x] Review order
 
-## Form - Adresses
+## Form - Adresses ✅
 
 * [x] Address form
-## Fetching countries
+## Fetching countries ✅
 
-* []
-* []
-* []
-## Fetching countries - sub devition
+* [x] All countries
+## Fetching countries - sub devision
 
-* []
-* []
-* []
+* [x] state and province
+* [x] Domestic and international
 ## Payment forms and stripe
 
-* []
+* [x] Payment methods
 * []
 * []
 ## Integration
