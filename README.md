@@ -80,11 +80,11 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 ## Payment forms and stripe
 
 * [x] Payment methods
-* []
-* []
+* [x] Stripe account
+
 ## Integration
 
-* []
+* []Confirmation
 * []
 * []
 ## Credits
