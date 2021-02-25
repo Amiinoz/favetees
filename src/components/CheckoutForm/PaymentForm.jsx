@@ -9,7 +9,7 @@ import { loadStripe } from '@stripe/stripe-js';
 
 import Review from './Review';
 
-const stripePromise = loadStripe('process.env.REACT_APP_STRIPE_PUBLIC_KEY');
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 const PaymentForm = ({
   checkoutToken,
@@ -31,7 +31,7 @@ const PaymentForm = ({
     });
 
     if (error) {
-      console.log(error);
+      console.log('[error]', error);
     } else {
       const orderData = {
         line_items: checkoutToken.live.line_items,
@@ -41,16 +41,14 @@ const PaymentForm = ({
           email: shippingData.email,
         },
         shipping: {
-          name: 'primary',
+          name: 'International',
           street: shippingData.address1,
           town_city: shippingData.city,
-          country_state: shippingData.shippingSubdivision,
+          county_state: shippingData.shippingSubdivision,
           postal_zip_code: shippingData.zip,
           country: shippingData.shippingCountry,
         },
-        fulfillment: {
-          shipping_method: shippingData.shippingOption,
-        },
+        fulfillment: { shipping_method: shippingData.shippingOption },
         payment: {
           gateway: 'stripe',
           stripe: {
@@ -58,6 +56,7 @@ const PaymentForm = ({
           },
         },
       };
+
       onCaptureCheckout(checkoutToken.id, orderData);
 
       nextStep();
