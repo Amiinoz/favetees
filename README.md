@@ -73,23 +73,23 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 ## Fetching countries ✅
 
 * [x] All countries
-## Fetching countries - sub devision
+## Fetching countries - sub devision ✅
 
 * [x] state and province
 * [x] Domestic and international
-## Payment forms and stripe
+## Payment forms and stripe ✅
 
 * [x] Payment methods
 * [x] Stripe account
 
 ## Integration
 
-* []Confirmation
-* []
+* [x]Confirmation
+* []Review
 * []
 ## Credits
 
-* []
+* [] images
 * []
 * []
 
