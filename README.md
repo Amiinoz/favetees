@@ -1,6 +1,13 @@
 # FAVETEES
 
-ECommerce App
+ECommerce shop App
+
+To :rocket:
+
+To :test_tube: the app at checkout
+At payment: use  4242 4242 4242 4242 for Credit card
+expiry date: 04 / 24
+
 
 <!-- ![example-site](example-site.gif) -->
 
@@ -9,8 +16,8 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 
 ## Initial set up ✅
 
-* [x]Create React App
-* [x]Install all dependencies
+* [x] Create React App
+* [x] Install all dependencies
     * Material ui and icons
     * Commerce.js
     * React/Stripe
@@ -48,7 +55,8 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 * [x] Get product
 * [x] Get cart
 * [x] Add products to the cart
-* [] Chackout cart layout
+* [x] Checkout cart layout
+
 ## Router ✅
 
 * [x] Home
@@ -82,17 +90,26 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 * [x] Payment methods
 * [x] Stripe account
 
-## Integration
+## Integration  ✅
 
-* [x]Confirmation
-* []Review
-* []
+* [x] Confirmation
+* [x] Review
+* [x] Done
+
 ## Credits
 
-* [] images
-* []
-* []
+* [x] Images are from talented friends fromUnsplash
+      * Photo by Simon Abrams on Unsplash skills
+      * Photo by UX Indonesia on Unsplash  work 1
+      * Photo by Caspar Camille Rubin on Unsplash work2
+      * Photo by Charles Deluvio on Unsplash work3
+      * Photo by Lauren Mancke on Unsplash work4
+      * Photo by Christopher Gower on Unsplash work5
+      * Photo by Jesus Kiteque on Unsplash work6
+      * Photo by Riley Sharp on Unsplash footer
 
+
+## Extra
 
 * ✅
 * ✅
