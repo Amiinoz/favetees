@@ -96,6 +96,12 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 * [x] Review
 * [x] Done
 
+## Deployment
+
+* []
+* []
+* []
+
 ## Credits
 
 * [x] Images are from talented friends fromUnsplash
@@ -110,6 +116,8 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 
 
 ## Extra
+
+* [x] image carousel
 
 * ✅
 * ✅
