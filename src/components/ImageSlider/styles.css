@@ -8,8 +8,8 @@ button {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   border: none;
-  background: #ffd800;
-  border-radius: 30px;
+  background: #ff0035;
+  border-radius: 7px;
   text-transform: uppercase;
   box-sizing: border-box;
   padding: 15px 40px;

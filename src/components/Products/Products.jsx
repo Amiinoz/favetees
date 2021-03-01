@@ -9,6 +9,8 @@ const Products = ({ products, onAddToCart }) => {
   return (
     <main className={classes.content}>
 
+
+
       <ImageSlider />
       <div className={classes.toolbar} />
       <Grid container justify="center" spacing={4}>
