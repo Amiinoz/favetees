@@ -113,6 +113,7 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
       * Photo by Christopher Gower on Unsplash work5
       * Photo by Jesus Kiteque on Unsplash work6
       * Photo by Riley Sharp on Unsplash footer
+      * Photo by Sam Manns on Unsplash work 3
 
 
 ## Extra

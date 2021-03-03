@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Products, Navbar, Cart, Checkout } from './components';
+import { Products, Navbar, Cart, Checkout, About } from './components';
 import { commerce } from './lib/commerce';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -7,6 +7,7 @@ function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({});
   const [order, setOrder] = useState({})
+
   const [errorMessage, setErrorMessage] = useState('')
 
   const fetchProducts = async () => {
@@ -38,20 +39,17 @@ function App() {
 
   const handleEmptyCart = async () => {
     const response = await commerce.cart.empty();
-
     setCart(response.cart);
   };
 
   const refreshCart = async () => {
     const newCart = await commerce.cart.refresh()
-
     setCart(newCart)
   }
 
   const handleCaptureCheckout = async (checkoutTokenId, newOrder) => {
     try {
       const incomingOrder = await commerce.checkout.capture(checkoutTokenId, newOrder)
-
       setOrder(incomingOrder)
       refreshCart()
     } catch (error) {
@@ -64,8 +62,7 @@ function App() {
     fetchCart();
   }, []);
 
-  console.log(products);
-  console.log(cart);
+
 
   return (
     <Router>
@@ -75,6 +72,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Products products={products} onAddToCart={handleAddToCart} />
+          </Route>
+          <Route exact path='/about'>
+            <About />
           </Route>
           <Route exact path="/cart">
             <Cart
