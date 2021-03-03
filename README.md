@@ -2,14 +2,14 @@
 
 ECommerce shop App
 
-To :rocket:
+To :rocket: see live - https://faveteesstore.netlify.app/
 
-To :test_tube: the app at checkout
-At payment: use  4242 4242 4242 4242 for Credit card
+To :test_tube: To test the app use:
+4242 4242 4242 4242 for Credit card
 expiry date: 04 / 24
 
 
-<!-- ![example-site](example-site.gif) -->
+
 
 ## Objectives
 Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
