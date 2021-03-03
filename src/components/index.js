@@ -3,4 +3,5 @@ export { default as ImageSlider } from './ImageSlider/ImageSlider'
 export { default as Products } from './Products/Products';
 export { default as Cart } from './Cart/Cart';
 export { default as About } from './About';
+export { default as Contact } from './Contact';
 export { default as Checkout } from './CheckoutForm/Checkout/Checkout';

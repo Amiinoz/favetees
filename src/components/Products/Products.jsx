@@ -12,6 +12,7 @@ const Products = ({ products, onAddToCart }) => {
 
 
       <ImageSlider />
+
       <div className={classes.toolbar} />
       <Grid container justify="center" spacing={4}>
         {products.map((product) => (

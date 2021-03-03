@@ -96,30 +96,29 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 * [x] Review
 * [x] Done
 
+## Improvements
+* [x] image carousel
+* [x] Adding simple about page
+* [x] connect page
+
+
 ## Deployment
 
-* []
-* []
-* []
+* [X] Deployment with Netlify
+
 
 ## Credits
 
 * [x] Images are from talented friends fromUnsplash
-      * Photo by Simon Abrams on Unsplash skills
-      * Photo by UX Indonesia on Unsplash  work 1
-      * Photo by Caspar Camille Rubin on Unsplash work2
-      * Photo by Charles Deluvio on Unsplash work3
-      * Photo by Lauren Mancke on Unsplash work4
-      * Photo by Christopher Gower on Unsplash work5
-      * Photo by Jesus Kiteque on Unsplash work6
+      * Photo by Simon Abrams on Unsplash
+      * Photo by UX Indonesia on Unsplash
+      * Photo by Caspar Camille Rubin on Unsplash
+      * Photo by Charles Deluvio on Unsplash
+      * Photo by Lauren Mancke on Unsplash
+      * Photo by Christopher Gower on Unsplash
+      * Photo by Jesus Kiteque on Unsplash
       * Photo by Riley Sharp on Unsplash footer
-      * Photo by Sam Manns on Unsplash work 3
+      * Photo by Sam Manns on Unsplash
+      * Photo by Adam Solomon on Unsplash
 
 
-## Extra
-
-* [x] image carousel
-
-* ✅
-* ✅
-* ✅
