@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Products, Navbar, Cart, Checkout, About, Contact } from './components';
+import { Products, Navbar, Cart, Checkout, About } from './components';
 import { commerce } from './lib/commerce';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -7,6 +7,7 @@ function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({});
   const [order, setOrder] = useState({})
+  const [about] = useState({});
 
   const [errorMessage, setErrorMessage] = useState('')
 
@@ -73,12 +74,11 @@ function App() {
           <Route exact path="/">
             <Products products={products} onAddToCart={handleAddToCart} />
           </Route>
+
           <Route exact path='/about'>
-            <About />
+            <About about={about} />
           </Route>
-          <Route exact path='/contact'>
-            <Contact />
-          </Route>
+
           <Route exact path="/cart">
             <Cart
               cart={cart}
@@ -87,6 +87,7 @@ function App() {
               handleEmptyCart={handleEmptyCart}
             />
           </Route>
+
           <Route exact path="/checkout">
             <Checkout
               cart={cart}
@@ -95,6 +96,7 @@ function App() {
               error={errorMessage}
             />
           </Route>
+
         </Switch>
       </div>
     </Router>

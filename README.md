@@ -99,7 +99,7 @@ Build & Deploy an Amazing App with React.js, Commerce.js, and Stripe
 ## Improvements
 * [x] image carousel
 * [x] Adding simple about page
-* [x] connect page
+
 
 
 ## Deployment

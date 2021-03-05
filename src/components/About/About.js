@@ -7,12 +7,13 @@ import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import IconButton from '@material-ui/core/IconButton';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 
 
-import AboutImage from '../assets/connect.jpg'
+import AboutImage from '../../assets/aboutus.jpg'
 
 
 
@@ -38,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-export default function Contact() {
+export default function About() {
   const classes = useStyles();
 
 
@@ -55,15 +56,22 @@ export default function Contact() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Contact Us
+            Our story
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" style={{ textTransform: 'none' }}>
-            info@favetees.com
+            Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
+
+            Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
+
+            Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
         </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions disableSpacing>
-        <Typography variant="body2" color="textSecondary" component="p">Fallow us here</Typography>
+        <Typography variant="body2" color="textSecondary" component="p">Connect with us</Typography>
+        <IconButton arial-label="contact us">
+          <MailOutlineIcon />
+        </IconButton>
         <IconButton aria-label="fallow us on twitter">
           <TwitterIcon />
         </IconButton>

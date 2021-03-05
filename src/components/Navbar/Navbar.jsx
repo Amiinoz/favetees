@@ -44,6 +44,7 @@ const Navbar = ({ totalItems }) => {
 
   return (
     <>
+
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
           <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
@@ -51,10 +52,9 @@ const Navbar = ({ totalItems }) => {
           </Typography>
 
           <div>
-            <Tabs aria-label="ant example">
+            <Tabs>
               <Tab label="Shop" component={Link} to="/" />
               <Tab label="Our Story" component={Link} to="/about" />
-              <Tab label="Contact Us" component={Link} to="/contact" />
             </Tabs>
           </div>
 
