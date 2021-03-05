@@ -2,7 +2,7 @@
 
 ECommerce shop App
 
-To :rocket: see live - https://faveteesstore.netlify.app/
+To :rocket: see live - https://favetees.netlify.app/
 
 To :test_tube: To test the app use:
 4242 4242 4242 4242 for Credit card
