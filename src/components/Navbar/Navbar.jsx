@@ -28,7 +28,9 @@ const Navbar = ({ totalItems }) => {
 
 
   const renderMobileMenu = (
-    <Menu anchorEl={mobileMoreAnchorEl} anchorOrigin={{ vertical: 'top', horizontal: 'right' }} id={mobileMenuId} keepMounted transformOrigin={{ vertical: 'top', horizontal: 'right' }} open={isMobileMenuOpen} onClose={handleMobileMenuClose}>
+    <Menu anchorEl={mobileMoreAnchorEl} anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+     id={mobileMenuId} keepMounted transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+      open={isMobileMenuOpen} onClose={handleMobileMenuClose}>
       <MenuItem>
         <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
           <Badge badgeContent={totalItems} color="secondary">
@@ -48,7 +50,7 @@ const Navbar = ({ totalItems }) => {
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
           <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-            <img src={Logo} alt="Favetees" height="80px" className={classes.image} /> FaveTees
+            <img src={Logo} alt="Favetees" height="80px" className={classes.image} />
           </Typography>
 
           <div>
