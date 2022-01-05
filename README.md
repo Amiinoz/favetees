@@ -29,7 +29,7 @@
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)]( https://favetees.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
-[![Twitter: \(httmps:\/\/www.twitter.com\/@dev\_mos](https://img.shields.io/twitter/follow/\(httmps:\/\/www.twitter.com\/@dev\_mos.svg?style=social)](https://twitter.com/\(httmps:\/\/www.twitter.com\/@dev\_mos)
+
 
 </div>
 
