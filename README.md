@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- project logo  -->
- <img src="/src/assets/logo.png">
+ <img src="/src/assets/logo2.png">
 
 </div>
 
