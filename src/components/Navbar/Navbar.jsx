@@ -11,7 +11,7 @@ import {
 } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logo2.png';
 import useStyles from './styles';
 
 import Tabs from '@material-ui/core/Tabs';
